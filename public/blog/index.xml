@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Zerai.xyz</title>
+	<link>http://example.org/blog/</link>
+	<description>Recent content in Blogs on Zerai.xyz</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Tue, 16 Aug 2022 23:13:10 -0400</lastBuildDate>
+    
+        <atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Hello World</title>
+		<link>http://example.org/blog/hello-world/</link>
+		<pubDate>Tue, 16 Aug 2022 23:13:10 -0400</pubDate>
+		
+		<guid>http://example.org/blog/hello-world/</guid>
+		<description>&lt;p&gt;hello world&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
