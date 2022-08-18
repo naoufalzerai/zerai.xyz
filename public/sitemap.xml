@@ -2,27 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/blog/</loc>
+    <loc>https://zerai.xyz/posts/hello-world/</loc>
     <lastmod>2022-08-16T23:13:10-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/hello-world/</loc>
+    <loc>https://zerai.xyz/posts/</loc>
     <lastmod>2022-08-16T23:13:10-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://zerai.xyz/</loc>
     <lastmod>2022-08-16T23:13:10-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://zerai.xyz/about/</loc>
     <lastmod>2022-08-16T23:05:07-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/personal/</loc>
+    <loc>https://zerai.xyz/tags/personal/</loc>
     <lastmod>2022-08-16T23:05:07-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://zerai.xyz/tags/</loc>
     <lastmod>2022-08-16T23:05:07-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/test/</loc>
+    <loc>https://zerai.xyz/tags/test/</loc>
     <lastmod>2022-08-16T23:05:07-04:00</lastmod>
-  </url><url>
-    <loc>http://example.org/categories/</loc>
   </url>
 </urlset>
