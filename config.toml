@@ -1,58 +1,79 @@
 baseURL = 'https://zerai.xyz/'
-languageCode = 'en-us'
 title = 'Zerai.xyz'
-theme = 'ezhil'
-paginate = 5
+theme = 'notepadium'
 
-copyright = "© Copyright notice"
+copyright = "©2020 Notepadium."
 
-pygmentsstyle = "solarized-dark"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+languageCode = "en"  # for the RSS generation
+defaultContentLanguage = "en"
 
-googleAnalytics = "UA-123-45"
-disqusShortname = "zerai-xyz"
+hasCJKLanguage = true
 
-summaryLength = 20
+enableRobotsTXT = true
+
+# Enable relativeURLs if your site hosted on GitHub.io
+#relativeURLs = true
+
+# Enable Disqus
+#disqusShortname = "XXX"
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+ignoreErrors = ["error-remote-getjson"]
+
+[markup.highlight]
+codeFences = true
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
 
 [params]
-	subtitle = "Clean and minimal personal [blog theme for Hugo](https://github.com/vividvilla/ezhil)"
-	disableDisqusTypes = ["page"]
-	featherIconsCDN = true
-	mode = "auto" # "dark", "auto", "light"
-	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
-	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
-	# customJS = ["https://code.jquery.com/jquery-3.4.1.js", "js/custom1.js"]  # Custom JS scripts.
+style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = "Jan 02, 2006"  # if unset, default is "2006-01-02"
+readingTime = false  # show reading time after article date
+logo = ""
+slogan = "100% JavaScript-free"
+#license = "<a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>."
+ipv6ready = true
 
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+[params.assets]
+css = ["css/fonts.css"]
 
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
+[params.comments]
+enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
 
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
+[params.share]
+enable = false  # En/Disable share globally, default: false. You can always enable share on per page.
+addThisId = ""
+inlineToolId = ""
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
+[params.math]
+enable = false # load math globally, default: false. You can always enable math on per page.
+use = "katex"  # builtin: "katex", "mathjax".  default: "katex"
 
-[[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/vividvilla/ezhil"
+[params.syntax]
+use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
+theme = "github"
+darkTheme = "dracula"
 
-[[params.social]]
-name = "RSS"
-icon = "rss"
-url = "/index.xml"
+[params.profile]
+  enable = true
+  avatar = "https://d33wubrfki0l68.cloudfront.net/ddf49425628d8aec7523db143916b34ae1641e11/b97e8/images/gopher-side_color.svg"
+  name = "gohugo"
+  bio = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."  # support markdown syntax
+  twitter = "GoHugoIO"  # https://twitter.com/XXX
+  github = "gohugoio"  # https://github.com/XXX
 
-[taxonomies]
-   tag = "tags"
+[params.nav]
+showCategories = true       # /categories/
+showTags = true             # /tags/
+
+[[params.nav.custom]]
+title = "About"
+url = "/about/"
+
+[[params.nav.custom]]
+title = "Hugo"
+url = "https://gohugo.io/"
