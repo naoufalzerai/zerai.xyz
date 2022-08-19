@@ -289,6 +289,12 @@ b {
   text-decoration: none;
 }
 
+.header-flex{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .site.logo {
   height: 42px;
   border-radius: 3px;

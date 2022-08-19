@@ -1,14 +1,33 @@
 <section id="header">
-    <div class="header wrap"><span class="header left-side"><a class="site home" href="{{- `/` | relLangURL -}}">
+    <div class="header-flex">
+
+        <span class="header">
+            <a class="site home" href="{{- `/` | relLangURL -}}">
                 {{- $logo := site.Params.logo -}}
                 {{- if $logo -}}
                 <img class="site logo" src="{{- $logo | relURL -}}" alt />
                 {{- end -}}
-                <span class="site name">{{- site.Title | safeHTML -}}</span></a></span>
-        <span class="header right-side">
+                <span class="site name">{{- site.Title | safeHTML -}}</span>
+            </a>
+        </span>
+
+        {{- with site.Params.slogan -}}
+            <span class="title">
+                {{- with site.Params.profile.github -}}
+                  <a class="item" href="https://github.com/{{- . | safeHTML -}}" target="_blank" rel="noopener noreferrer"><span class="iconfont icon-github"></span></a>
+                {{- end -}}
+                {{- with site.Params.profile.email -}}
+                  <a class="item" href="mailto:{{- . | safeHTML -}}" target="_blank" rel="noopener noreferrer"><span class="iconfont icon-email"></span>
+                  </a>
+                {{- end -}}
+            </span>
+        {{- end -}}
+
+        
+        
+        <span class="header">
             {{- partial "navigation-items.html" site.Params.nav -}}
-        </span></div>
-    {{- with site.Params.slogan -}}
-        <div class="site slogan"><span class="title">{{- . | safeHTML -}}</span></div>
-    {{- end -}}
+        </span>    
+    
+    </div>
 </section>
