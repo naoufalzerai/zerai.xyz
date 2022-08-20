@@ -6,11 +6,18 @@
                 {{- $logo := site.Params.logo -}}
                 {{- if $logo -}}
                 <img class="site logo" src="{{- $logo | relURL -}}" alt />
-                {{- end -}}
+                {{- else }}
                 <span class="site name">{{- site.Title | safeHTML -}}</span>
+                {{- end -}}
             </a>
         </span>
 
+        
+        <span class="header">
+            {{- partial "navigation-items.html" site.Params.nav -}}
+        </span>    
+
+        
         {{- with site.Params.slogan -}}
             <span class="title">
                 {{- with site.Params.profile.github -}}
@@ -22,12 +29,6 @@
                 {{- end -}}
             </span>
         {{- end -}}
-
-        
-        
-        <span class="header">
-            {{- partial "navigation-items.html" site.Params.nav -}}
-        </span>    
     
     </div>
 </section>

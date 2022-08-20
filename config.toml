@@ -2,7 +2,7 @@ baseURL = 'https://zerai.xyz/'
 title = 'Naoufal Zerai'
 theme = 'notepadium'
 
-copyright = "©2020 Notepadium."
+copyright = "<a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>."
 
 languageCode = "en"  # for the RSS generation
 defaultContentLanguage = "en"
@@ -36,7 +36,7 @@ readingTime = false  # show reading time after article date
 logo = ""
 slogan = "100% JavaScript-free"
 #license = "<a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>."
-ipv6ready = true
+#ipv6ready = true
 
 [params.assets]
 css = ["css/fonts.css"]
@@ -60,9 +60,9 @@ darkTheme = "dracula"
 
 [params.profile]
   enable = true
-  avatar = "https://d33wubrfki0l68.cloudfront.net/ddf49425628d8aec7523db143916b34ae1641e11/b97e8/images/gopher-side_color.svg"
-  name = "gohugo"
-  bio = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."  # support markdown syntax
+  avatar = "zerai.jpg"
+  name = ""
+  bio = ""  # support markdown syntax
   # twitter = "GoHugoIO"  # https://twitter.com/XXX
   github = "naoufalzerai"  # https://github.com/XXX
   email = "naoufal.zerai@gmail.com"
