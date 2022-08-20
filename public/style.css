@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Harabara-Bold';
+    src:  url('fonts/webfonts_Harabara-Bold/Harabara-Bold.ttf.woff') format('woff'),
+    url('fonts/webfonts_Harabara-Bold/Harabara-Bold.ttf.svg#Harabara-Bold') format('svg'),
+    url('fonts/webfonts_Harabara-Bold/Harabara-Bold.ttf.eot'),
+    url('fonts/webfonts_Harabara-Bold/Harabara-Bold.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+  font-family: 'Raleway';
+    src: url('../fonts/raleway/Raleway-Regular.ttf');
+}
