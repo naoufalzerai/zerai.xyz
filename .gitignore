@@ -56,8 +56,8 @@ Temporary Items
 .apdisk
 
 # End of https://www.gitignore.io/api/hugo,linux,macos
-content/post/emoji-support.md
-content/post/markdown-syntax.md
-content/post/math-typesetting.md
-content/post/placeholder-text.md
-content/post/rich-content.md
+/content/post/emoji-support.md
+/content/post/markdown-syntax.md
+/content/post/math-typesetting.md
+/content/post/placeholder-text.md
+/content/post/rich-content.md
