@@ -33,7 +33,7 @@ total 4
 	sudo mv -v /etc/X11/xorg.conf ~/xorg-backup/
 	sudo mv -v /etc/X11/xorg.conf.d ~/xorg-backup/
 
-#### 2. Check if the is any config
+#### 2. Check for GPU module
 
     lspci -nnk | grep -i -EA3 "3d|display|vga"
 
