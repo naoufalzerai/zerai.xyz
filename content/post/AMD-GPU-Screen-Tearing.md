@@ -5,7 +5,7 @@ lastmod = 2022-08-21T22:09:40-04:00
 tags = ["AMD","GPU","Fix"]
 categories = ["Linux"]
 imgs = []
-cover = ""  # image show on top
+cover = "https://images.pexels.com/photos/1154738/pexels-photo-1154738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  # image show on top
 readingTime = true  # show reading time after article date
 toc = true
 comments = false

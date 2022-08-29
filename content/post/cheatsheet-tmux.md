@@ -5,7 +5,7 @@ lastmod = 2022-08-28T19:15:25-04:00
 tags = ["cheatsheet","tmux"]
 categories = ["Linux"]
 imgs = []
-cover = ""  # image show on top
+cover = "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  # image show on top
 readingTime = true  # show reading time after article date
 toc = true
 comments = false

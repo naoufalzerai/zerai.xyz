@@ -65,7 +65,7 @@ darkTheme = "dracula"
   bio = ""  # support markdown syntax
   # twitter = "GoHugoIO"  # https://twitter.com/XXX
   github = "naoufalzerai"  # https://github.com/XXX
-  email = "naoufal.zerai@gmail.com"
+  email = "naoufal@zerai.xyz"
 
 [params.nav]
 showCategories = true       # /categories/

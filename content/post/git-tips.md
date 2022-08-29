@@ -5,7 +5,7 @@ lastmod = 2022-08-22T12:58:59-04:00
 tags = ["git"]
 categories = ["Coding"]
 imgs = []
-cover = ""  # image show on top
+cover = "https://images.pexels.com/photos/1181253/pexels-photo-1181253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  # image show on top
 readingTime = true  # show reading time after article date
 toc = true
 comments = false
