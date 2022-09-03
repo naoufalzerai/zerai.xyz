@@ -349,6 +349,7 @@ b {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
 }
 
 .note.list .item {
@@ -392,7 +393,7 @@ b {
 }
 
 .note.title{
-  font-size: 1.125em;
+  font-size: 1.3em;
   font-weight: 600;
 }
 
