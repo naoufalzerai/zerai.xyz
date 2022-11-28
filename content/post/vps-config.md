@@ -2,8 +2,8 @@
 title = "Vps Config"
 date = 2022-11-20T19:18:00-05:00
 lastmod = 2022-11-20T19:18:00-05:00
-tags = []
-categories = []
+tags = ["Config","VPS"]
+categories = ["Linux"]
 imgs = []
 cover = ""  # image show on top
 readingTime = true  # show reading time after article date
@@ -14,6 +14,11 @@ single = false  # display as a single page, hide navigation on bottom, like as a
 license = ""  # CC License
 +++
 
+
+A server configuration is a set of instructions that tells a computer how to operate. The instructions can include the type of hardware to use, the software to install, and the settings to use. A server configuration can be used to set up a new computer, or to change the settings on an existing computer.
+Here is the configuration I usually use for my fresh new sever:
+
+<!--more-->
 # Host
 1. declare hosts 
 
