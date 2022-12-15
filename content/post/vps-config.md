@@ -47,11 +47,12 @@ Edit hostname files
 
         service ssh restart
 # Docker
-      1. apt install docker docker-compose -y
-      2. sudo systemctl start docker
-      3. sudo systemctl enable docker
-      4. sudo usermod -aG docker $USER
-      5. sudo newgrp docker
+      $ apt install docker docker-compose -y
+      $ sudo systemctl start docker
+      $ sudo systemctl enable docker
+      $ sudo usermod -aG docker $USER
+      $ sudo newgrp docker
+      $ sudo usermod -aG docker [non-root user]
 
 # Swarm
         docker swarm init --advertise-addr 144.91.95.252
