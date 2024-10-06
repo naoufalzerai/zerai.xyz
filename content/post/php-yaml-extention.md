@@ -16,8 +16,6 @@ draft = false
 +++
 
 
-A server configuration is a set of instructions that tells a computer how to operate. The instructions can include the type of hardware to use, the software to install, and the settings to use. A server configuration can be used to set up a new computer, or to change the settings on an existing computer.
-Here is the configuration I usually use for my fresh new sever:
 
 <!--more-->
 #  Step 1
