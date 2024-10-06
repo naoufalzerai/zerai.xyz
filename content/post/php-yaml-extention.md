@@ -52,7 +52,9 @@ draft = false
     Zend Module Api No:      20160303
     Zend Extension Api No:   320160303
     Please provide the prefix of libyaml installation [autodetect] : 
-
+## if errors:
+    $sudo brew install autoconf
+    $sudo pecl install --ignore-errors yaml
 #  Step 5
     
     Please provide the prefix of libyaml installation [autodetect] : /opt/homebrew/Cellar/libyaml/0.2.5
